@@ -1,7 +1,7 @@
 # K1TOOL remote config
 
 `config.json` is read by the K1TOOL app on start and when it returns to the
-foreground. Edit it here to control updates — no app release needed.
+foreground, via GitHub Pages: https://untramp.github.io/k1tool-config/config.json Edit it here to control updates — no app release needed.
 
 | Field | Effect |
 |---|---|
@@ -18,7 +18,8 @@ Build numbers are the part after `+` in the app's `pubspec.yaml`
 
 1. Raise `min_build` only **after** the new build is live in the store,
    otherwise users are sent to a store page without the update.
-2. Changes reach apps within ~5 minutes (GitHub raw cache).
+2. Changes reach apps within 1–2 minutes (GitHub Pages redeploys on every commit).
+   Builds released before 2.0.0 (200) don't read this file at all.
 3. Keep the JSON valid — the app ignores a broken file and keeps the last good
    one. Check with `python3 -m json.tool config.json`.
 4. The app fails open: if this file can't be loaded and nothing is cached,
