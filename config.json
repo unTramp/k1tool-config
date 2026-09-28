@@ -2,7 +2,7 @@
   "schema": 1,
   "ios": {
     "min_build": 200,
-    "latest_build": 200,
+    "latest_build": 201,
     "store_url": "https://apps.apple.com/app/id6448659231"
   },
   "android": {
@@ -12,7 +12,13 @@
   },
   "maintenance": {
     "enabled": false,
-    "message": { "en": "", "ru": "" }
+    "message": {
+      "en": "",
+      "ru": ""
+    }
   },
-  "update_message": { "en": "", "ru": "" }
+  "update_message": {
+    "en": "",
+    "ru": ""
+  }
 }
