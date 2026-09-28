@@ -20,5 +20,28 @@
   "update_message": {
     "en": "",
     "ru": ""
+  },
+  "promo": {
+    "id": "test-2026-09-28",
+    "enabled": true,
+    "platforms": [
+      "ios"
+    ],
+    "title": {
+      "ru": "Тестовое промо K1TOOL",
+      "en": "K1TOOL test promo"
+    },
+    "text": {
+      "ru": "Проверка рекламного баннера из удалённого конфига.",
+      "en": "Checking the promo banner from the remote config."
+    },
+    "cta": {
+      "ru": "Открыть k1pool",
+      "en": "Open k1pool"
+    },
+    "url": "https://ru.k1pool.com",
+    "image_url": "https://untramp.github.io/k1tool-config/promo-test.png",
+    "dismissible": true,
+    "erid": ""
   }
 }

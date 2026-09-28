@@ -24,3 +24,21 @@ Build numbers are the part after `+` in the app's `pubspec.yaml`
    one. Check with `python3 -m json.tool config.json`.
 4. The app fails open: if this file can't be loaded and nothing is cached,
    nobody is blocked.
+
+## Promo banner
+
+`promo` shows one campaign card on top of Portfolio (builds 200+):
+
+| Field | |
+|---|---|
+| `id` | campaign id; closing is remembered per id — use a new id for a new campaign |
+| `enabled` | `true` to show |
+| `platforms` / `languages` | optional lists, e.g. `["ios"]`, `["ru"]`; missing = everyone |
+| `starts_at` / `ends_at` | optional ISO dates, e.g. `2026-10-01T00:00:00Z` |
+| `title`, `text`, `cta`, `label` | `{ "ru": "…", "en": "…" }`; only `title` is required |
+| `url` | https link opened in the browser |
+| `image_url` | optional square https image (≥ 144 px), e.g. hosted in this repo |
+| `dismissible` | `false` hides the close button |
+| `erid` | ad token (required for ads in Russia), shown as «Реклама · erid: …» |
+
+To stop a campaign set `"enabled": false`.
