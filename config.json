@@ -2,7 +2,7 @@
   "schema": 1,
   "ios": {
     "min_build": 200,
-    "latest_build": 201,
+    "latest_build": 200,
     "store_url": "https://apps.apple.com/app/id6448659231"
   },
   "android": {
@@ -22,26 +22,31 @@
     "ru": ""
   },
   "promo": {
-    "id": "test-2026-09-28",
-    "enabled": true,
-    "platforms": [
-      "ios"
-    ],
+    "id": "",
+    "enabled": false,
+    "platforms": [],
+    "languages": [],
+    "starts_at": "",
+    "ends_at": "",
     "title": {
-      "ru": "Тестовое промо K1TOOL",
-      "en": "K1TOOL test promo"
+      "ru": "",
+      "en": ""
     },
     "text": {
-      "ru": "Проверка рекламного баннера из удалённого конфига.",
-      "en": "Checking the promo banner from the remote config."
+      "ru": "",
+      "en": ""
     },
     "cta": {
-      "ru": "Открыть k1pool",
-      "en": "Open k1pool"
+      "ru": "",
+      "en": ""
     },
-    "url": "https://ru.k1pool.com",
-    "image_url": "https://untramp.github.io/k1tool-config/promo-test.png",
+    "url": "",
+    "image_url": "",
     "dismissible": true,
+    "label": {
+      "ru": "",
+      "en": ""
+    },
     "erid": ""
   }
 }
