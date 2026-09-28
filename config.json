@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "ios": {
+    "min_build": 200,
+    "latest_build": 200,
+    "store_url": "https://apps.apple.com/app/id6448659231"
+  },
+  "android": {
+    "min_build": 200,
+    "latest_build": 200,
+    "store_url": "https://play.google.com/store/apps/details?id=com.k1tool"
+  },
+  "maintenance": {
+    "enabled": false,
+    "message": { "en": "", "ru": "" }
+  },
+  "update_message": { "en": "", "ru": "" }
+}
