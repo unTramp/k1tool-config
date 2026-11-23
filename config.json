@@ -2,12 +2,12 @@
   "schema": 1,
   "ios": {
     "min_build": 200,
-    "latest_build": 200,
+    "latest_build": 202,
     "store_url": "https://apps.apple.com/app/id6448659231"
   },
   "android": {
     "min_build": 200,
-    "latest_build": 200,
+    "latest_build": 202,
     "store_url": "https://play.google.com/store/apps/details?id=com.k1tool"
   },
   "maintenance": {
@@ -48,5 +48,13 @@
       "en": ""
     },
     "erid": ""
+  },
+  "review": {
+    "enabled": true,
+    "min_build": 202,
+    "rollout": 20,
+    "min_successful_loads": 5,
+    "min_days": 7,
+    "cooldown_days": 120
   }
 }
